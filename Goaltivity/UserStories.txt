@@ -1,0 +1,58 @@
+Goal and productivity Manager 
+
+User - user id, first,name ,lastname, address, username(unique key), password 
+Journal - id, subject, varchar big limit, image, 
+Reminders - FK user time based, list of events, time store, time due, count down timer 
+Events - data table, location, difficulty, time commitment, 
+
+User
+Creates journal entries about their day.
+Based on a journal entry, a user can set reminders for additional actions.
+Events are like calendar meetings or invitations.
+ 
+
+As a <role>, I want to <goal or task> so that <benefit>.
+
+As a user:
+   I want to be able to create a journal entry to log different things
+   or events that occurred at that time.
+   
+   I want to be able to delete an existing journal entry so that I can
+   remove any mistakes.
+   
+   I want to be able to edit an existing journal entry so that I can make
+   changes.
+   
+   I want to be able to tag a journal entry based on attributes or categories
+   so that I can search or filter those entries.
+   
+   I want to be able to create reminders for a specific date and time so that I
+   don't forget to do them.
+   
+   I want to be able to link one or more journal entries to a reminder so that I have
+   context.
+   
+   When I create a reminder, I want to be able to specify a due date for the reminder
+   so that things are accomplished.
+   
+   I want to be able to delete reminders so that I can remove them.
+   
+   I want to be able to create tags (categories) that can be associated with a journal
+   entry.
+   
+   I want to be able to update tags...
+   
+   I want to be able to delete tags...
+   
+
+When the application loads, prompt to select the user or to create a new user.
+When a user is selected, then display all the journal entries for the user in date descending order.
+When a user is selected, allow for a new journal entry to be created.
+
+
+
+   
+   
+   
+
+
